@@ -5,13 +5,13 @@
 }
 
 body {
-    background-color: rgb(15, 15, 83);
+    background-color: #00B2D3;
     font-family: 'poppins',sans-serif;
 }
 .main {
     width: 100%;
     /* height: 100vh; */
-    /* border: 2px solid red; */
+    /* border: 2px solid rgba(7,86,194,255); */
 }
 
 .navigator {
@@ -19,20 +19,21 @@ body {
     justify-content: space-between;
 }
 .logo {
-    /* border: 1px solid red; */
+    /* border: 1px solid rgba(7,86,194,255); */
     margin-left: 20px;
     position: relative;
-    top: -5px;
-    left: 5%;
+    top: 30px;
+    left: 25%;
+    height: 100%;
 }
 #logo-header {
     font-size: 2.2em;
-    color: white;
+    color: #8EFFFF;
     font-weight: 500;
 }
 
 #logo-span {
-    color: red;
+    color: rgba(7,86,194,255);
     font-size: 50px;
     position: relative;
     top: 10px;
@@ -41,25 +42,25 @@ body {
 /* navigator */
 
 #navar {
-    /* border: 2px solid red; */
+    /* border: 2px solid rgba(7,86,194,255); */
     margin-top: 25px;
     margin-right: 50px;
 }
 
 #navar a {
-    color: white;
+    color: #8EFFFF;
     text-decoration: none;
     margin-right: 30px;
     font-size: 15px;
-    /* border: 1px solid red; */
+    /* border: 1px solid rgba(7,86,194,255); */
     padding: 5px 10px;
     border-radius: 5px;
 }
 #last{
-    background-color: red;
+    background-color: rgba(7,86,194,255);
 }
 #navar a:hover {
-    /* border: 1px solid red; */
+    /* border: 1px solid rgba(7,86,194,255); */
     opacity: 0.8;
 }
 
@@ -68,7 +69,7 @@ body {
 
 
 .second-phase{
-    /* border: 2px solid red; */
+    /* border: 2px solid rgba(7,86,194,255); */
     /* width: 100%; */
     height: 85vh;
     display: flex;
@@ -78,7 +79,7 @@ body {
 .header {
     /* width: 100%; */
     /* height: 80vh; */
-    /* border: 2px solid red; */
+    /* border: 2px solid rgba(7,86,194,255); */
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -88,13 +89,13 @@ body {
 
 
 #first-head {
-    color: white;
+    color: #8EFFFF;
     font-weight: 400;
     font-size: 35px;
 }
 
 #second-head {
-    color: white;
+    color: #8EFFFF;
     font-size: 45px;
     width: 59%;
     line-height: 80px;
@@ -104,7 +105,7 @@ body {
 }
 
 #header-span {
-    color: red;
+    color: rgba(7,86,194,255);
 }
 
 
@@ -123,7 +124,7 @@ body {
 
 .second-main {
     margin-top: 30px;
-    /* border: 1px solid red; */
+    /* border: 1px solid rgba(7,86,194,255); */
     height: 80vh;
     display: flex;
     gap: 350px;
@@ -145,15 +146,15 @@ body {
     margin-top: 50px;
 }
 .About h1 {
-    color: white;
+    color: #8EFFFF;
     font-size: 35px;
-    color: red;
+    color: rgba(7,86,194,255);
     margin-left: 65px;
     margin-bottom: 20px;
 }
 
 .About p {
-    color: white;
+    color: #8EFFFF;
     text-align: justify;
     width: 60%;
 }
@@ -166,7 +167,7 @@ body {
 }
 
 #para-span {
-    color: red;
+    color: rgba(7,86,194,255);
 }
 
 
@@ -175,12 +176,12 @@ body {
 
 .third-main{
     margin-top: 50px;
-    /* border: 2px solid red; */
+    /* border: 2px solid rgba(7,86,194,255); */
     height: 90vh;
 }
 .Vlog-header h1 {
     display: inline;
-    color: red;
+    color: rgba(7,86,194,255);
     margin: 40px 40px;
     font-size: 40px;
     position: relative;
@@ -192,7 +193,7 @@ body {
 }
 
 .vlog-video {
-    /* border: 2px solid red; */
+    /* border: 2px solid rgba(7,86,194,255); */
     height: 100vh;
     display: flex;
     gap: 20px;
@@ -200,7 +201,7 @@ body {
 
 .vlog {
     margin: 40px 50px;
-    /* border: 1px solid red; */
+    /* border: 1px solid rgba(7,86,194,255); */
     /* width: 25%; */
     width: 350px;
     height: 520px;
@@ -220,13 +221,13 @@ body {
 } */
 
 .vlog h2 {
-    color: white;
+    color: #8EFFFF;
     text-align: center;
     /* border: 2px solid green; */
     padding: 10px 10px;
     /* background: linear-gradient(#33ccff 0%, #ff99cc 100%); */
     background: linear-gradient(#240e0e, #444663);
-    color: white;
+    color: #8EFFFF;
 }
 
 .vlog img {
@@ -245,7 +246,7 @@ body {
 
 
 .layer {
-    color: white;
+    color: #8EFFFF;
     width: 100%;
     height: 50vh;
     background: linear-gradient(rgb(0,0,0,0), #ff004f);
@@ -259,10 +260,10 @@ body {
     top: 30%;
     padding: 20px 20px;
     background: none;
-    color: white;
+    color: #8EFFFF;
     font-size: 20px;
     left: 25%;
-    border: 1px solid red;
+    border: 1px solid rgba(7,86,194,255);
     border-radius: 10px;
     cursor: pointer;
 }
@@ -273,7 +274,7 @@ body {
 
 
 .Contact {
-    /* border: 2px solid red; */
+    /* border: 2px solid rgba(7,86,194,255); */
     /* height: 110vh; */
     margin-top: 150px;
     display: flex;
@@ -295,7 +296,7 @@ body {
 }
 
 .contact-header h1 {
-    color: red;
+    color: rgba(7,86,194,255);
     text-align: center;
     position: relative;
     left: 50%;
@@ -314,14 +315,14 @@ body {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
-    /* border: 1px solid red; */
+    /* border: 1px solid rgba(7,86,194,255); */
     padding: 5px 0px;
     margin-top: 85px;
 
 }
 
 .input-field label{
-    color: white;
+    color: #8EFFFF;
     margin: 10px 10px;
     position: relative;
     display: inline-block;
@@ -335,7 +336,7 @@ body {
     padding: 5px 10px;
     background: none;
     border: none;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid rgba(7,86,194,255);
     width: 70%;
     margin-bottom: 40px;
     outline: none;
@@ -344,7 +345,7 @@ body {
 
 
 .input-field input:focus{
-    color: white;
+    color: #8EFFFF;
 }
 
 .input-field input:focus ~ label {
@@ -356,8 +357,8 @@ body {
     padding: 20px 20px;
     font-size: 25px;
     background-color: transparent;
-    border: 1px solid red;
-    color: white;
+    border: 1px solid rgba(7,86,194,255);
+    color: #8EFFFF;
     outline: none;
 }
 
@@ -365,8 +366,8 @@ body {
     padding: 15px 10px;
     font-size: 18px;
     background: transparent;
-    border: 1px solid red;
-    color: white;
+    border: 1px solid rgba(7,86,194,255);
+    color: #8EFFFF;
     width: 120px;
     border-radius: 10px;
     margin-top: 20px;
@@ -377,7 +378,7 @@ body {
     opacity: 0.8;
 }
 .last_image{
-    /* border: 2px solid red; */
+    /* border: 2px solid rgba(7,86,194,255); */
     margin-right: 100px;
     position: relative;
     top: 250px;
